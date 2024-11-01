@@ -44,7 +44,7 @@ const NavBar = () => {
         <a className="btn btn-ghost text-xl">Book Vibe</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
+        <ul className="menu menu-horizontal px-1 gap-4">{links}</ul>
       </div>
       <div className="navbar-end gap-3">
         <a className="btn bg-[#23BE0A]">Sign In</a>
